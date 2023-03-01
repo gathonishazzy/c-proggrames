@@ -1,14 +1,12 @@
-//natural numbers
-#include <stdio.h>
-int main() 
-{
-  int n=100;
-  while(n>9){
-    printf("%d ",n);
-    n=n-1;
-    }
-  printf("\nfor loop body finished");
-  return 0;
-  }  
 
-  
+//product of numbers
+#include<stdio.h>
+int main()
+{
+int product(int,int);
+int num1,num2;
+printf("\n enter value of num 1");
+printf("\n enter value of num 2");
+scanf("%d %d",& num1,& num2);
+return 0;
+} 
